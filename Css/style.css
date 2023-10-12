@@ -9,7 +9,7 @@
 
 body{
     font-size: 100%;
-    background: linear-gradient(68deg, #2F2325 16.62%, #8E5D52 85.61%);
+    background: linear-gradient(#6eaa5e,#7c9c71, #868d82, #936ea3, #9846c2);
 }
 
 .cabecalho{
@@ -22,6 +22,8 @@ body{
 
 .cabecalho-imagem{
     height: 72px;
+    border-radius: 50%;
+    box-shadow: 4px 5px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .cabecalho-menu{
@@ -35,6 +37,7 @@ body{
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
+   
 
 }
 
@@ -61,6 +64,7 @@ body{
     font-weight: 400;
     color: #FFF2E7;
     font-size: 64px;
+
 }
 
 .conteudo-principal-subtitulo{
@@ -74,13 +78,13 @@ body{
 
 .conteudo-principal-escrito-botao{
     background-color: #ECD6C4;
+    color: #1d1416;
     width: 180px;
     height: 60px;
     border-radius: 20px;
     background: #ECD6C4;
     box-shadow: 4px 5px 4px 0px rgba(0, 0, 0, 0.25);
     border: none;
-    color: #2F2325;
     font-family: 'Sarala', sans-serif;
     font-size: 24px;
     font-weight: 400;
@@ -91,9 +95,11 @@ body{
 }
 
 .conteudo-principal-imagem{
-    width: 394.13px;
-    height: 429.314px;
-
+    padding-top: 7px;
+    width: 330px;
+    height: 330px;
+    border-radius: 50%;
+    box-shadow: 4px 5px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .conteudo-secundario{
@@ -128,7 +134,7 @@ body{
 }
 
 .rodape-imagem{
-    height: 48px;
+    height: 130px;
     display: block;
     margin: 0 auto;
 }
